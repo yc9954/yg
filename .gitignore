@@ -1,0 +1,90 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Data (실제 데이터 파일만, datasets/ 폴더는 코드이므로 포함)
+data/
+*.csv
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+
+# Model Checkpoints
+checkpoints/
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+
+# Logs
+logs/
+*.log
+wandb/
+runs/
+tensorboard_logs/
+
+# Output
+output/
+results/
+videos/
+*.mp4
+*.avi
+*.gif
+*.png
+*.jpg
+*.jpeg
+
+# Audio Files
+*.mp3
+*.wav
+*.flac
+*.ogg
+
+# Temporary Files
+tmp/
+temp/
+*.tmp
+
+# Environment Variables
+.env
+.env.local
+
+# OS
+Thumbs.db
+.directory

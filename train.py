@@ -18,7 +18,7 @@ from torch.optim import Adam, AdamW
 from torch.optim.lr_scheduler import CosineAnnealingLR, StepLR
 
 from models import MusicConditionedDanceGenerator
-from datasets import DanceMotionDataset, create_dummy_dataset
+from dance_datasets import DanceMotionDataset, create_dummy_dataset
 from utils import TextEmbedder, COCO_SKELETON, compute_bone_lengths
 
 
